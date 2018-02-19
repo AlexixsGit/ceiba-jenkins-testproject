@@ -1,0 +1,9 @@
+*.classpath
+.gradle/
+.settings/
+bin/
+build/
+gradle/
+gradlew
+gradlew.bat
+jacoco/
