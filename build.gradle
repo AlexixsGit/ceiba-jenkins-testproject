@@ -33,6 +33,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
+jar{
+	manifest{
+		attributes 'Implementation-Title':'CeibaGradleJenkins'
+	}
+}
+
 test {
 	jacoco {
 		append = false
