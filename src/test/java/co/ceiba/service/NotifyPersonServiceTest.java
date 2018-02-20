@@ -1,6 +1,7 @@
 package co.ceiba.service;
 
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -26,6 +27,6 @@ public class NotifyPersonServiceTest {
 		// Act
 		String message = notifyPersonService.notify(person);
 		// Assert
-		assertNotNull(message);
+		assertNull(message);
 	}
 }
